@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'test-project';
+  title = 'test-project 22';
+
+  receivedValue($event: string){
+
+    alert($event)
+
+  }
+
 }
